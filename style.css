@@ -2,6 +2,9 @@ body{
     font-family: 'Poppins', sans-serif;
    
 }
+/* ---------------------------- */
+/* header section  */
+/* ----------- */
 
 header{
     display: flex;
@@ -72,4 +75,76 @@ button{
     left: 835px;
     top: 211px;
     position: absolute;
+}
+.logo-sec{
+    height: 40px;
+    width: 986px;
+   display: flex;
+   margin-left: 165px;
+   margin-right: 165px;
+   margin-top: 206px;
+   border-top: 1px solid #ecf0f1;
+   border-bottom: 1px solid #ecf0f1 ;
+   padding: 36px;
+
+}
+.logo{
+    padding-right: 60px;
+}
+/* ---------------------- */
+/* Product style  */
+/* ------------------ */
+.pro-title{
+    font-style: normal;
+    font-size: 28px; 
+    width: 290px;
+    margin-left: 387px;
+}
+
+
+.products{
+    margin-left: 196px;
+    margin-top: 100px;
+
+}
+.gridding{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    position: absolute;
+    grid-row-gap: 30px;
+    grid-column-gap: 30px;
+}
+
+.product-select{
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    width: 319px;
+    height: 446px;
+    padding-left: 16px;
+    padding-top: 15px;
+    
+}
+.price{
+    font-weight: 400;
+    font-size: 24px;
+    height: 36px;
+    
+}
+.fa-star, .fa-star-half-stroke{
+    color: #f39c12;
+    width: 16px;
+    height: 16px;
+    left: 28px;
+}
+.ratings{
+    width: 122px;
+    height: 32px;
+}
+.details{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: #787885;
+   
 }
